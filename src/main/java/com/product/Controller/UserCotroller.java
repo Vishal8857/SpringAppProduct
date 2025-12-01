@@ -74,4 +74,8 @@ public class UserCotroller {
 	public String deleteUser(@RequestParam("id") long id){
 		return userService.deleteUser(id);
 	}
+
+	public String display(){
+		return "hello vishal"
+	}
 }
